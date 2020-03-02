@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Trade+Winds&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trade Winds';
+  color: #fff;
+  background-color: #333;
+  background-image: url(../img/bg.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+h3 {
+  font-size: 32px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 24px;
+  margin: 1em;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: context-menu;
+}
+
+.head .logo {
+  position: relative;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  margin: 1em;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.head .logo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-animation: logo 1s;
+          animation: logo 1s;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section > div {
+  margin: 2em 0;
+  padding: 2em 2em;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.section > div:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  cursor: cell;
+}
+/*# sourceMappingURL=style.css.map */

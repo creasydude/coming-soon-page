@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trade Winds' ;
+    color: #fff;
+    background-color: #333;
+    background-image: url(../img/bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    user-select: none;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h5 {
+    font-size: 24px;
+    margin: 1em;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: context-menu;
+    & .logo {
+        position: relative;
+        background-image: url(../img/logo.png);
+        background-size: cover;
+        width: 180px;
+        height: 180px;
+        margin: 1em;
+        transition: transform 1s;
+        transform: scale(1);
+    }
+
+    & .logo:hover {
+        transform: scale(1.2);
+        animation: logo 1s;
+
+    }
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+    & > div {
+        margin: 2em 0;
+        padding: 2em 2em;
+        transform: scale(1);
+        transition: transform 1s;
+    }
+
+    & > div:hover {
+        transform: scale(1.5);
+        cursor: cell;
+    }
+
+}
