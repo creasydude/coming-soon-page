@@ -1,6 +1,6 @@
 let countdown = document.querySelector('.section')
 
-let launchDate = new Date('March 15 , 2020 13:00:00').getTime();
+let launchDate = new Date('April 15 , 2020 13:00:00').getTime();
 
 const intvl = setInterval(() => {
     const now = new Date().getTime();
