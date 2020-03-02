@@ -11,9 +11,9 @@ const intvl = setInterval(() => {
     const secs = Math.floor(distance % (1000 * 60) / 1000)
    
     countdown.innerHTML = `
-    <div id="days">${days} ◆<span>Days</span></div>
-    <div id="hours">${hours} ◆<span>Hours</span></div>
-    <div id="mins">${mins} ◆<span>Minutes</span></div>
-    <div id="secs">${secs} ◆<span>Seconds</span></div>
+    <div>${days} ◆<span>Days</span></div>
+    <div>${hours} ◆<span>Hours</span></div>
+    <div>${mins} ◆<span>Minutes</span></div>
+    <div>${secs} ◆<span>Seconds</span></div>
     `
 }, 1000);
